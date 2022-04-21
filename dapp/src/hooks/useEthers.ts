@@ -3,7 +3,7 @@ import { ethers } from "ethers";
 import { formatBytes32String, formatEther, parseBytes32String, parseEther } from "ethers/lib/utils";
 import { useEffect, useRef, useState } from "react";
 import { toast } from "react-toastify";
-import DonationContract from "../../../artifacts/contracts/Donation.sol/Donation.json";
+import DonationContract from "../contract/Donation.json";
 import { CONTRACT_ADDRESS } from "../constants";
 import { newDonationToast } from "../utils/toast";
 
